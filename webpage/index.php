@@ -71,7 +71,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $isValid = $isNameValid&&$isEmailValid&&$isUsernameValid&&$isPasswordValid&&$isConfirmPasswordValid&&$isDobValid&&$isAddressValid&&$isCityValid&&$isPhoneValid&&$isCardValid&&$isCardExpiryValid&&$isGpaValid&&$isWebsiteValid;
 
     if($isValid){
-        header('LOCATION: thanks.php', TRUE, 301);
+        header('LOCATION: registered_new_page.php', TRUE, 301);
     }
 }
 ?>
