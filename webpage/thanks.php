@@ -1,0 +1,2 @@
+<?php
+print 'Successfully registered !!!';
